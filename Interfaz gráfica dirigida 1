@@ -63,7 +63,7 @@ public class interfaz_1 {
 		sl_panel.putConstraint(SpringLayout.WEST, lblNewLabel_1, 0, SpringLayout.WEST, lblNewLabel);
 		panel.add(lblNewLabel_1);
 		
-		JButton btnNewButton = new JButton("New button");
+		JButton btnNewButton = new JButton("Cancel");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String mensaje="Cancel.";
@@ -79,7 +79,7 @@ public class interfaz_1 {
 		sl_panel.putConstraint(SpringLayout.EAST, btnNewButton, 0, SpringLayout.EAST, lblNewLabel);
 		panel.add(btnNewButton);
 		
-		JButton btnNewButton_1 = new JButton("New button");
+		JButton btnNewButton_1 = new JButton("Galleta del día");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String mensaje="Galleta del día.";
